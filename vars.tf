@@ -15,3 +15,13 @@ variable "amis" {
    }
 
 }
+
+
+
+variable "Environment" {
+  default = "Dev"
+}
+
+variable "Created_by" {
+  default = "Anna"
+}
